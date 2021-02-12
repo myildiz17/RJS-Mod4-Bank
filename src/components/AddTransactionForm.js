@@ -4,7 +4,7 @@ class AddTransactionForm extends Component {
   render() {
     return (
       <div className="ui segment">
-        <form className="ui form">
+        <form className="ui form" onSubmit={this.props.addTransaction}>
           <div className="inline fields">
             <input type="date" name="date" />
             <input type="text" name="description" placeholder="Description" />
@@ -19,6 +19,12 @@ class AddTransactionForm extends Component {
           <button className="ui button" type="submit">
             Add Transaction
           </button>
+          <div>Select To Sort</div>
+          <select name="cars" id="cars" onChange={this.props.sortBy}>
+            <option value=""></option>
+            <option value="Category">Category</option>
+            <option value="Description">Description</option>
+          </select>
         </form>
       </div>
     );

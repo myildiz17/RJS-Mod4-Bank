@@ -83,6 +83,27 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2021-02-09",
+      "description": "New school purcahse",
+      "category": "College Expenses",
+      "amount": "50",
+      "id": 13
+    },
+    {
+      "date": "2021-02-23",
+      "description": "Eggs and bred",
+      "category": "Grocery",
+      "amount": "17",
+      "id": 14
+    },
+    {
+      "date": "2021-02-22",
+      "description": "ball",
+      "category": "kids",
+      "amount": "10",
+      "id": 15
     }
   ]
 }
